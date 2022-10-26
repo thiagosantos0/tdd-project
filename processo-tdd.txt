@@ -1,0 +1,13 @@
+Primeiro Processo:
+    -> Escreva o teste
+    -> Verifique se o teste passa
+    -> se ele não passa, escrevemos o mínimo possível para fazer ele passar
+    -> quando passar, refatoramos ele.
+
+A grande diferença que temos no sistema para um fluxo "normal" de TDD é que aqui, começamos pelos
+testes funcionais. Se o teste funcional passar e não precisa de refatoração (o código que fez ele funcionar
+não é o primeiro do ciclo do TDD, é um código mais robusto) então partimos para escrever um teste funcional
+para outra funcionalidade.
+
+Caso contrário, se ele passar e precisar de refatoração ou não passar, partimos para os teste de unidade. E entramos no
+primeiro processo descrito nesse documento.
