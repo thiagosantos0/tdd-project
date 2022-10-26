@@ -18,7 +18,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # Ela é convidada a entrar com um item TODO imediatamente
 
-        ## Ela digita "Estudar testes funcionais" em uma caixa de texto
+        # Ela digita "Estudar testes funcionais" em uma caixa de texto
 
         # Quando ela aperta enter, a página atualiza, e mostra a lista
         # "1: Estudar testes funcionais" como um item da lista TODO
