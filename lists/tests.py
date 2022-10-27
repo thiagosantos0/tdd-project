@@ -27,9 +27,6 @@ class ItemModelTest(TestCase):
         self.assertEqual(first_saved_item.text, 'O primeiro item')
         self.assertEqual(second_saved_item.text, 'O segundo item')
 
-    def test_only_saves_items_when_necessary(self):
-        self.client.get('/')
-        self.assertEqual(Item.objects.count(), 0)
 
 class ListViewTest(TestCase):
 
